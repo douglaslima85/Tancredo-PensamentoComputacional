@@ -1,7 +1,44 @@
 body{
-    text-align: center;
-    background:#00B4D8;
+     background-color: #00B4D8;
 }
+main {
+    text-align: center;
+}
+
+.capa{
+    width: 70%;
+    height: 100%;
+}
+.conteudo{
+    background-color: rgb(4, 50, 90);
+    font-family: sans-serif;
+}
+
 #slogan{
     font-size: 25px;
+}
+
+.beneficio{
+    background-color:  #3A86FF;
+    
+
+}
+
+ul{
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px;
+    font-size: 20px;
+    margin-right: 300px;
+}
+
+li{
+    padding: 20px;
+    margin: 10px;
+}
+
+.foto-beneficio{
+    width: 40% ;
+    text-align: right;
+    padding: 10px;
 }
