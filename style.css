@@ -1,5 +1,12 @@
 body{
-     background-color: #00B4D8;
+     background: linear-gradient( #000000, #06007d);
+     color: #ffff;
+     margin: 0 auto;
+}
+.foto-logo{
+    width: 10%;
+    margin-left: 18px;
+    border-radius: 100%;
 }
 main {
     text-align: center;
@@ -10,7 +17,6 @@ main {
     height: 100%;
 }
 .conteudo{
-    background-color: rgb(4, 50, 90);
     font-family: sans-serif;
 }
 
@@ -18,12 +24,10 @@ main {
     font-size: 25px;
 }
 
-.beneficio{
-    background-color:  #3A86FF;
-    
 
+.beneficios h2 {
+    text-align: center;
 }
-
 ul{
     display: inline-block;
     vertical-align: top;
@@ -41,4 +45,6 @@ li{
     width: 40% ;
     text-align: right;
     padding: 10px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px #000000; 
 }
