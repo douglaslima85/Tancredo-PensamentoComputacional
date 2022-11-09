@@ -1,5 +1,5 @@
 body{
-     background: linear-gradient( #000000, #06007d);
+     background: linear-gradient( #000000, #07026e);
      color: #ffff;
      margin: 0 auto;
 }
@@ -8,6 +8,26 @@ body{
     margin-left: 18px;
     border-radius: 100%;
 }
+nav {
+    position: absolute;
+    top: 90px;
+    right: 65px;
+}
+nav a {
+    font-size: 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-left: 20px;
+    color: #ffffff;
+}
+
+nav a:hover{
+    font-size: 32px;
+    font-weight: bold;
+    text-shadow: 2px 3px 1px #00129c;
+    transition: 0.5s;
+}
+
 main {
     text-align: center;
 }
