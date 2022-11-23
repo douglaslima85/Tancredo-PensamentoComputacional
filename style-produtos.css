@@ -43,4 +43,16 @@ nav a:hover{
     padding: 30px 5px;
     box-sizing: border-box;
     border: 2px solid #000000;
+    border-radius: 15px;
+}
+.produtos li:hover{
+    border:2px solid #ffffff ;
+    box-shadow: 3px 3px 6px #ffffff;
+}
+.produtos h2 {
+    font-size: 22px;
+
+}
+.produtos h2:hover {
+    color:#000000
 }
